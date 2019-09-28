@@ -9,17 +9,28 @@ import (
 type ExpressionValidation struct {
 	expression *core.ExpressionDefinition
 	errorMessages *ErrorMessages
+	initialized bool
 }
 
 func (ExpressionValidation *ExpressionValidation) Init(value interface{}) *validation.BadInitValue  {
+	if ExpressionValidation.initialized {
+		return nil
+	}
 
+	realValue, ok := value.(*core.ExpressionDefinition)
+	if ok {
+		ExpressionValidation.expression = realValue
+		return nil
+	}else {
+		return &validation.BadInitValue{}
+	}
 }
 
 func (ExpressionValidation *ExpressionValidation) IsInitialized() bool {
-
+	return ExpressionValidation.initialized
 }
 
 
 func (ExpressionValidation *ExpressionValidation) GetValidationType() string  {
-
+	return EXPRESSION_VALIDATION
 }
