@@ -1,6 +1,7 @@
 package validation
 
 import (
+	"github.com/sirupsen/logrus"
 	"pm/erros/form/validation"
 	"pm/expression/core"
 )
@@ -22,6 +23,7 @@ func (ExpressionValidation *ExpressionValidation) Init(value interface{}) *valid
 		ExpressionValidation.expression = realValue
 		return nil
 	}else {
+		logrus.Error("The value cannot assert to ExpressionDefinition")
 		return &validation.BadInitValue{}
 	}
 }
