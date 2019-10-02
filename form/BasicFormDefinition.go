@@ -1,6 +1,6 @@
 package form
 
-type BaseDefinition struct {
+type BasicDefinition struct {
 	key string
 	definitionType string
 	label string

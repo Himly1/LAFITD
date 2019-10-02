@@ -1,8 +1,8 @@
 package validation
 
 
-const EXPRESSION_VALIDATION = "expressionValidation"
+const ALL_EXPRESSION_VALIDATION = "expressionValidation"
 
-const NOTNUILL_VALIDATION = "NotNullValidation"
+const ALL_NOTNUILL_VALIDATION = "NotNullValidation"
 
-const ENTITY_EXISTS_VALIDATION = "entityExistsValidation"
+const BACKEND_ENTITY_EXISTS = "entityExistsValidation"
