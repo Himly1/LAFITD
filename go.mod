@@ -1,4 +1,4 @@
-module pm
+module LAFITD
 
 go 1.12
 

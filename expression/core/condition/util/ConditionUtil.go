@@ -2,10 +2,10 @@ package util
 
 import (
 	"github.com/sirupsen/logrus"
-	"pm/erros/expression/core/condition/util"
-	"pm/expression/core/condition"
-	util2 "pm/expression/value/util"
-	"pm/utils"
+	"LAFITD/erros/expression/core/condition/util"
+	"LAFITD/expression/core/condition"
+	util2 "LAFITD/expression/value/util"
+	"LAFITD/utils"
 	. "strings"
 )
 

@@ -1,6 +1,6 @@
 package camunda
 
-import "pm/process/core/bpmn"
+import "LAFITD/process/core/bpmn"
 
 type BpmnProcess struct {
 	name string
@@ -9,14 +9,10 @@ type BpmnProcess struct {
 	sequenceFloes []*bpmn.SequenceFlow
 }
 
-func (BpmnProcess *BpmnProcess) ToJsonDefinition() string  {
+func (BpmnProcess BpmnProcess)AddActivity(Activity bpmn.Activity, parentActivity bpmn.Activity, incomingActivity bpmn.Activity) error {
 
 }
 
-func (BpmnProcess *BpmnProcess)ToMarkDownDoc() string  {
-
-}
-
-func (BpmnProcess *BpmnProcess)ToBpmnXml() string  {
+func (BpmnProcess BpmnProcess)AddSequenceFlow(flow bpmn.SequenceFlow) error  {
 
 }

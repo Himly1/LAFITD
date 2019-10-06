@@ -1,6 +1,6 @@
 package form
 
-import "pm/form/validation"
+import "LAFITD/form/validation"
 
 type Definition struct {
 	items []*Definition

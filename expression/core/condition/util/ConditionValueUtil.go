@@ -1,9 +1,9 @@
 package util
 
 import (
-	"pm/erros/expression/core/condition/util"
-	"pm/expression/value"
-	Values  "pm/expression/value"
+	"LAFITD/erros/expression/core/condition/util"
+	"LAFITD/expression/value"
+	Values  "LAFITD/expression/value"
 )
 
 func GetValueAsBoolValue(value Values.Value) (*util.BadValueTypeError, *Values.BoolValue) {

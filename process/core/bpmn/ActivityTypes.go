@@ -17,3 +17,9 @@ const START_EVENT  = "startEvent"
 const END_EVENT  = "endEvent"
 
 const UNINTERRUPTED_MESSAGE_EVENT = "uninterruptedMessageEvent"
+
+const POOL_OR_PARTICIPANT = "pool/participant"
+
+const EVENT_SUB_PROCESS = "eventSubProcess"
+
+const SUB_PROCESS = "subProcess"

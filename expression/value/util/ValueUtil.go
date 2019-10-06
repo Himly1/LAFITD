@@ -1,10 +1,10 @@
 package util
 
 import (
-	"pm/erros/expression/core/value/util"
-	util2 "pm/expression/core/condition/util"
-	"pm/expression/subject"
-	"pm/expression/value"
+	"LAFITD/erros/expression/core/value/util"
+	util2 "LAFITD/expression/core/condition/util"
+	"LAFITD/expression/subject"
+	"LAFITD/expression/value"
 )
 
 var checkers = map[string]func(value value.Value) *util.BadValueError {

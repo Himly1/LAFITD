@@ -1,6 +1,6 @@
 package value
 
-import "pm/erros/expression/core/condition"
+import "LAFITD/erros/expression/core/condition"
 
 var valueTypes = map[string]string {
 	SubjectPropertyType:SubjectPropertyType,

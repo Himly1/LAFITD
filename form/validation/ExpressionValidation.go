@@ -2,8 +2,8 @@ package validation
 
 import (
 	"github.com/sirupsen/logrus"
-	"pm/erros/form/validation"
-	"pm/expression/core"
+	"LAFITD/erros/form/validation"
+	"LAFITD/expression/core"
 	"sync"
 )
 

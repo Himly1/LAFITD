@@ -1,6 +1,6 @@
 package subject
 
-import "pm/erros/expression/subject"
+import "LAFITD/erros/expression/subject"
 
 //表达的主体
 type Subject interface {
@@ -31,7 +31,7 @@ type Property struct {
 	IsSubject bool
 
 	//当isSubject为true时该地址变量指向的是一个新的主体.
-	Subject *Subject
+	Subject Subject
 }
 
 

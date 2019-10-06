@@ -1,8 +1,8 @@
 package core
 
 import (
-	"pm/erros/expression/core"
-	"pm/expression/core/condition"
+	"LAFITD/erros/expression/core"
+	"LAFITD/expression/core/condition"
 	"sync"
 )
 

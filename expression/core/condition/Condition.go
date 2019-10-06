@@ -1,9 +1,9 @@
 package condition
 
 import (
-	util2 "pm/erros/expression/core/condition/util"
-	"pm/expression/core/condition/util"
-	"pm/expression/value"
+	util2 "LAFITD/erros/expression/core/condition/util"
+	"LAFITD/expression/core/condition/util"
+	"LAFITD/expression/value"
 )
 
 
