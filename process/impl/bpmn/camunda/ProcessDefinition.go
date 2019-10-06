@@ -1,6 +1,6 @@
 package camunda
 
-import "LAFITD/process/core/bpmn"
+import "lafitd/process/core/bpmn"
 
 type BpmnProcess struct {
 	name string

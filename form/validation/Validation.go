@@ -1,8 +1,8 @@
 package validation
 
 import (
-	"LAFITD/erros/form/validation"
-	international_message "LAFITD/international-message"
+	"lafitd/erros/form/validation"
+	international_message "lafitd/international-message"
 )
 
 type Validation interface {

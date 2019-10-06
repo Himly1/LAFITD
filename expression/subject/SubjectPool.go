@@ -2,7 +2,7 @@ package subject
 
 import (
 	"github.com/sirupsen/logrus"
-	"LAFITD/erros/expression/subject"
+	"lafitd/erros/expression/subject"
 )
 
 type Pool interface {

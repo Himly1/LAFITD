@@ -1,6 +1,6 @@
 package bpmn
 
-import "LAFITD/expression/core/condition"
+import "lafitd/expression/core/condition"
 
 type SequenceFlow struct {
 	sourceActivity *Activity

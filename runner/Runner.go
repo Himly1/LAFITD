@@ -1,6 +1,6 @@
 package runner
 
-import runners2 "LAFITD/runner/runners"
+import runners2 "lafitd/runner/runners"
 
 type Runner interface {
 	Run() error

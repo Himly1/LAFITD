@@ -1,6 +1,6 @@
 package main
 
-import "LAFITD/runner"
+import "lafitd/runner"
 import "github.com/sirupsen/logrus"
 func main() {
 

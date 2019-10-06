@@ -1,7 +1,7 @@
 package value
 
 import (
-	"LAFITD/expression/subject"
+	"lafitd/expression/subject"
 )
 
 type Value interface {

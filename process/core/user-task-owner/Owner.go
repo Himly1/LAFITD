@@ -1,9 +1,9 @@
 package user_task_owner
 
 import (
-	user_task_owner "LAFITD/erros/process/core/user-task-owner"
-	"LAFITD/expression/subject"
-	"LAFITD/utils"
+	user_task_owner "lafitd/erros/process/core/user-task-owner"
+	"lafitd/expression/subject"
+	"lafitd/utils"
 	"sync"
 )
 

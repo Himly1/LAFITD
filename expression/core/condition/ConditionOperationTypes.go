@@ -1,6 +1,6 @@
 package condition
 
-import "LAFITD/erros/expression/core/condition"
+import "lafitd/erros/expression/core/condition"
 
 var operationTypes = map[string]string {
 	Equal:Equal,

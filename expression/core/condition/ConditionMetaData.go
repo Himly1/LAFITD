@@ -1,6 +1,6 @@
 package condition
 
-import "LAFITD/expression/value"
+import "lafitd/expression/value"
 
 
 

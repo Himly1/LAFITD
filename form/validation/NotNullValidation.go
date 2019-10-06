@@ -1,7 +1,7 @@
 package validation
 
 import (
-	"LAFITD/erros/form/validation"
+	"lafitd/erros/form/validation"
 )
 
 type NotNullValidation struct {

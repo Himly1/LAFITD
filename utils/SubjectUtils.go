@@ -2,7 +2,7 @@ package utils
 
 import (
 	"github.com/sirupsen/logrus"
-	"LAFITD/expression/subject"
+	"lafitd/expression/subject"
 )
 
 func IsThePropertyIsOneOfThePropertiesOfTheSubject(property subject.Property, subject subject.Subject) bool {

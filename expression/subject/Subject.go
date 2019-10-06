@@ -1,6 +1,6 @@
 package subject
 
-import "LAFITD/erros/expression/subject"
+import "lafitd/erros/expression/subject"
 
 //表达的主体
 type Subject interface {

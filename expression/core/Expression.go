@@ -1,6 +1,6 @@
 package core
 
-import "LAFITD/expression/core/condition"
+import "lafitd/expression/core/condition"
 
 type ExpressionDefinition struct {
 	Head *ExpressionNode

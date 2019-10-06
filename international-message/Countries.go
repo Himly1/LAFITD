@@ -1,6 +1,6 @@
 package international_message
 
-import international_message "LAFITD/erros/international-message"
+import international_message "lafitd/erros/international-message"
 
 var countries = map[string]*Country {
 	CHINA: &Country{code:CHINA},

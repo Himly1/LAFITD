@@ -1,4 +1,4 @@
-module LAFITD
+module lafitd
 
 go 1.12
 
